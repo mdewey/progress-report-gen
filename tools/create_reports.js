@@ -20,7 +20,7 @@ if (!fs.existsSync("./students/" + dir)){
 }
 
 students.forEach((student) => {
-    let _file = fs.readFileSync("./template/Week-3-4.report.md", "utf8")
+    let _file = fs.readFileSync("./template/Week-7-8.report.md", "utf8")
     _file = _file.replace("[Student Name]", student);
     _file = _file.replace("[Date]", format(new Date(), "M/D/YYYY"));
 
